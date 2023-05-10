@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Explore Valencia</title>
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <div id="menu">
+    <h4>Shortbread:</h4>
+    <input id="sb-shortbread" type="radio" name="rtoggle" value="sb-shortbread" checked="checked">
+    <label for="sb-shortbread">default</label>
+    <input id="sb-eclipse" type="radio" name="rtoggle" value="sb-eclipse">
+    <label for="sb-eclipse">dark</label>
+    <input id="sb-neutrino" type="radio" name="rtoggle" value="sb-neutrino">
+    <label for="sb-neutrino">light</label>
+    <h4>OpenMaptiles:</h4>
+    <input id="omt-bright" type="radio" name="rtoggle" value="omt-bright" checked="checked">
+    <label for="omt-bright">default</label>
+    <input id="omt-darkmatter" type="radio" name="rtoggle" value="omt-darkmatter">
+    <label for="omt-darkmatter">dark</label>
+    <input id="omt-bright-desaturated" type="radio" name="rtoggle" value="omt-bright-desaturated">
+    <label for="omt-bright-desaturated">light</label>
+  </div>
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
