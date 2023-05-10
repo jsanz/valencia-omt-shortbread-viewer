@@ -28,7 +28,7 @@ const main = () => {
   const inputs = layerList.getElementsByTagName('input');
 
   const updateStyle = ()=>{
-    map.setStyle(`/styles/${source}/${style}/style.json`);
+    map.setStyle(`styles/${source}/${style}/style.json`);
     map.redraw();
 
     console.log(`🗺 source: ${source}, style:${style}`);
