@@ -4,7 +4,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "pmtiles://tiles/valencia.omt.pmtiles"
+      "url": "pmtiles://valencia-omt-shortbread-viewer/tiles/valencia.omt.pmtiles"
     }
   },
   "sprite": "https://tiles.maps.elastic.co/styles/dark-matter/sprite",

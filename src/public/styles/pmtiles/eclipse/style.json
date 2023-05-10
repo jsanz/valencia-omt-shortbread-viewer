@@ -11,7 +11,7 @@
 	"sources": {
 		"versatiles-shortbread": {
 			"type": "vector",
-			"url": "pmtiles://tiles/valencia.shortbread.pmtiles"
+			"url": "pmtiles://valencia-omt-shortbread-viewer/tiles/valencia.shortbread.pmtiles"
 		}
 	},
 	"layers": [
