@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite src",
     "prebuild": "rimraf dist",
-    "build": "vite build src --outDir ../dist",
+    "build": "vite build src --outDir ../dist --base=/valencia-omt-shortbread-viewer",
     "preview": "vite preview"
   },
   "devDependencies": {
