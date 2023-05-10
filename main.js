@@ -3,7 +3,7 @@ import maplibregl from 'maplibre-gl';
 import * as pmtiles from "pmtiles";
 
 // CSS Styles
-import '../node_modules/@picocss/pico/css/pico.min.css';
+import './node_modules/@picocss/pico/css/pico.min.css';
 import './style.css';
 
 
