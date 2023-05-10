@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/png" href="https://elastic.co/favicon-32x32.png" sizes="32x32">
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
   <title>Explore Valencia</title>
 </head>
@@ -12,20 +12,52 @@
   <div id="map"></div>
 
   <div id="menu">
-    <h4>Shortbread:</h4>
-    <input id="sb-shortbread" type="radio" name="rtoggle" value="sb-shortbread" checked="checked">
-    <label for="sb-shortbread">default</label>
-    <input id="sb-eclipse" type="radio" name="rtoggle" value="sb-eclipse">
-    <label for="sb-eclipse">dark</label>
-    <input id="sb-neutrino" type="radio" name="rtoggle" value="sb-neutrino">
-    <label for="sb-neutrino">light</label>
-    <h4>OpenMaptiles:</h4>
-    <input id="omt-osm-bright" type="radio" name="rtoggle" value="omt-osm-bright" checked="checked">
-    <label for="omt-osm-bright">default</label>
-    <input id="omt-darkmatter" type="radio" name="rtoggle" value="omt-darkmatter">
-    <label for="omt-darkmatter">dark</label>
-    <input id="omt-osm-bright-desaturated" type="radio" name="rtoggle" value="omt-osm-bright-desaturated">
-    <label for="omt-osm-bright-desaturated">light</label>
+    <form id="sources">
+      <fieldset>
+        <legend>Tiles Source</legend>
+        <label for="pmtiles">
+          <input id="pmtiles" type="radio" name="rtoggle" value="pmtiles"  checked>
+          PMTiles (VLC)
+        </label>      
+        <label for="vector-tiles">
+          <input id="vector-tiles" type="radio" name="rtoggle" value="vector-tiles">
+          Vector Tiles (Global)
+        </label>
+      </fieldset>
+
+    </form>
+    <hr/>
+    <form id="styles">
+      <h6>Styles:</h6>
+      <fieldset>
+        <legend>Elastic <strong>OpenMaptiles</strong></legend>
+        <label for="osm-bright">
+          <input id="osm-bright" type="radio" name="rtoggle" value="osm-bright" checked>
+          Classic</label>
+        <label for="darkmatter">
+          <input id="darkmatter" type="radio" name="rtoggle" value="darkmatter">
+          Dark</label>
+        <label for="osm-bright-desaturated">
+          <input id="osm-bright-desaturated" type="radio" name="rtoggle" value="osm-bright-desaturated">
+          Light</label>
+      </fieldset>
+      <fieldset>
+        <legend>Versatiles <strong>Shortbread</strong></legend>
+        <label for="shortbread">
+          <input id="shortbread" type="radio" name="rtoggle" value="shortbread">
+          Shortbread</label>
+        <label for="eclipse">
+          <input id="eclipse" type="radio" name="rtoggle" value="eclipse">
+          Eclipse</label>
+        <label for="neutrino">
+          <input id="neutrino" type="radio" name="rtoggle" value="neutrino">
+          Neutrino</label>
+      </fieldset>
+
+
+
+    </form>
+
   </div>
   <script type="module" src="main.js"></script>
 </body>
