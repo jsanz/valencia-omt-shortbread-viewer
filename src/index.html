@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8" />
@@ -13,20 +13,20 @@
 
   <div id="menu">
     <form id="sources">
+      <h6>Tiles Source</h6>
       <fieldset>
-        <legend>Tiles Source</legend>
         <label for="pmtiles">
-          <input id="pmtiles" type="radio" name="rtoggle" value="pmtiles"  checked>
-          PMTiles (VLC)
-        </label>      
+          <input id="pmtiles" type="radio" name="rtoggle" value="pmtiles" checked>
+          <span data-placement="bottom" data-tooltip="Tiles rendered without a backend">Local (🇪🇸)</span>
+        </label>
         <label for="vector-tiles">
           <input id="vector-tiles" type="radio" name="rtoggle" value="vector-tiles">
-          Vector Tiles (Global)
+          <span data-placement="bottom" data-tooltip="Tiles provided by a remote backend">Remote (🌐)</span>
         </label>
       </fieldset>
 
     </form>
-    <hr/>
+    <hr />
     <form id="styles">
       <h6>Styles:</h6>
       <fieldset>
@@ -53,11 +53,7 @@
           <input id="neutrino" type="radio" name="rtoggle" value="neutrino">
           Neutrino</label>
       </fieldset>
-
-
-
     </form>
-
   </div>
   <script type="module" src="main.js"></script>
 </body>

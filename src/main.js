@@ -3,8 +3,8 @@ import maplibregl from 'maplibre-gl';
 import * as pmtiles from "pmtiles";
 
 // CSS Styles
-import './style.css';
 import '../node_modules/@picocss/pico/css/pico.min.css';
+import './style.css';
 
 
 let protocol = new pmtiles.Protocol();

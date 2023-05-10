@@ -1,8 +1,9 @@
 :root {
-  --spacing: 0.25rem;
-  --font-size: 14px;
-  --form-element-spacing-vertical: 0.5rem;
+  --spacing: 0.5rem;
+  --font-size: 18px;
+  --form-element-spacing-vertical: 0.8rem;
   --form-element-spacing-horizontal: 0.25rem;
+  --typography-spacing-vertical: 0.5rem;
 }
 body {
   margin: 0;
@@ -19,7 +20,7 @@ body {
   position: fixed;
   top: 10px;
   right: 10px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(237, 240, 243, 0.85);
   z-index: 2;
   padding: 10px;
   /*width: 500px;*/
