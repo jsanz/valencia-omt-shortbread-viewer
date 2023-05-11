@@ -19,7 +19,7 @@ const main = () => {
     
     style: '', // style URL
     center: [-0.387268,39.473305], // starting position [lng, lat]
-    zoom: 12, // starting zoom
+    zoom: 13, // starting zoom
     maxBounds: [-4.51,35.39,4.28,43.53],
     hash: true
   });
@@ -29,8 +29,6 @@ const main = () => {
 
   const updateStyle = ()=>{
     map.setStyle(`styles/${source}/${style}/style.json`);
-    map.redraw();
-
     console.log(`🗺 source: ${source}, style:${style}`);
   }
 
